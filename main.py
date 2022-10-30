@@ -37,7 +37,8 @@ async def start(ctx):
         minutes = random.randint(60, 600)
         print(time.ctime(time.time()), "- цикл:", cycle, "- следующий цикл через 2ч +", minutes, "секунд.")
         time.sleep(hours + minutes)
-	
+	
+
 @client.command()
 async def ping(ctx):
     #print("Hi there!")
